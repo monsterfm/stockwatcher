@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import StockInfo from './stockInfo.js'
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
           Stock Watcher
         </h1>
       </header>
+      <div>
+        <StockInfo/>
+      </div>
     </div>
   );
 }
